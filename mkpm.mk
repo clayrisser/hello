@@ -3,7 +3,7 @@
 # File Created: 27-09-2021 17:45:48
 # Author: Clay Risser
 # -----
-# Last Modified: 27-09-2021 19:19:16
+# Last Modified: 27-09-2021 19:42:12
 # Modified By: Clay Risser
 # -----
 # BitSpur Inc (c) Copyright 2021
@@ -50,7 +50,7 @@ $(MKPM_PACKAGE_DIR)/.bootstrap.mk:
 	@$(MKDIR_P) $(MKPM_PACKAGE_DIR)
 	@cd $(MKPM_PACKAGE_DIR) && \
 		$(shell curl --version >$(NULL) 2>$(NULL) && \
-			echo curl -Ls -o || \
-			echo wget -q --content-on-error -O) \
+			echo curl -L -o || \
+			echo wget --content-on-error -O) \
 		.bootstrap.mk $(MKPM_BOOTSTRAP) >$(NULL)
 ############## MKPM BOOTSTRAP SCRIPT END ##############
