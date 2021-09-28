@@ -3,7 +3,7 @@
 # File Created: 27-09-2021 17:45:48
 # Author: Clay Risser
 # -----
-# Last Modified: 27-09-2021 19:05:02
+# Last Modified: 27-09-2021 19:06:27
 # Modified By: Clay Risser
 # -----
 # BitSpur Inc (c) Copyright 2021
@@ -23,7 +23,6 @@
 include mkpm.mk
 include main.mk
 
-FIND ?= find
 GIT ?= git
 PACK_DIR ?= $(MKPM_TMP)/pack
 
