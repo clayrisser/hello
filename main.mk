@@ -3,7 +3,7 @@
 # File Created: 27-09-2021 17:45:48
 # Author: Clay Risser
 # -----
-# Last Modified: 27-09-2021 18:59:20
+# Last Modified: 27-09-2021 19:30:51
 # Modified By: Clay Risser
 # -----
 # BitSpur Inc (c) Copyright 2021
@@ -22,4 +22,14 @@
 
 .PHONY: hello
 hello:
-	@echo world
+	@echo Hello, world!
+	@echo
+	@echo 'BitSpur Inc (c) Copyright 2021'
+	@echo
+	@echo this message is coming from the hello mkpm package
+	@echo you can find this package at the link below
+	@echo https://gitlab.com/bitspur/community/mkpm-hello
+	@echo
+	@echo this package was published to the mkpm stable repo
+	@echo you can find the mkpm stable repo at the link below
+	@echo https://gitlab.com/bitspur/community/mkpm-stable
