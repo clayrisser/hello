@@ -3,7 +3,7 @@
 # File Created: 27-09-2021 17:45:48
 # Author: Clay Risser
 # -----
-# Last Modified: 27-09-2021 19:30:51
+# Last Modified: 27-09-2021 23:59:08
 # Modified By: Clay Risser
 # -----
 # BitSpur Inc (c) Copyright 2021
@@ -22,7 +22,25 @@
 
 .PHONY: hello
 hello:
-	@echo Hello, world!
+	@echo
+	@echo '88        88              88  88'
+	@echo '88        88              88  88'
+	@echo '88        88              88  88'
+	@echo '88aaaaaaaa88   ,adPPYba,  88  88   ,adPPYba,'
+	@echo '88""""""""88  a8P_____88  88  88  a8"     "8a'
+	@echo '88        88  8PP"""""""  88  88  8b       d8  aaa'
+	@echo '88        88  "8b,   ,aa  88  88  "8a,   ,a8"  "88'
+	@echo '88        88   `"Ybbd8"'"'  88  88   \`"'"YbbdP"'"'   d8'"
+	@echo '                                              8"'
+	@echo
+	@echo '                                             88           88  88'
+	@echo '                                             88           88  88'
+	@echo '                                             88           88  88'
+	@echo '8b      db      d8   ,adPPYba,   8b,dPPYba,  88   ,adPPYb,88  88'
+	@echo '`8b    d88b    d8'"'  a8"'"     "8a  88P'"'   "'"Y8  88  a8"    `Y88  88'
+	@echo ' `8b  d8'"'\`8b  d8'   8b       d8  88          88  8b       88  "'""'
+	@echo '  `8bd8'"'  \`8bd8'    "'"8a,   ,a8"  88          88  "8a,   ,d88  aa'
+	@echo '    YP      YP       `"YbbdP"'"'   88          88   \`"'"8bbdP"Y8  88'
 	@echo
 	@echo 'BitSpur Inc (c) Copyright 2021'
 	@echo
