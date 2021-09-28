@@ -3,7 +3,7 @@
 # File Created: 27-09-2021 17:45:48
 # Author: Clay Risser
 # -----
-# Last Modified: 27-09-2021 17:51:06
+# Last Modified: 27-09-2021 18:59:20
 # Modified By: Clay Risser
 # -----
 # BitSpur Inc (c) Copyright 2021
@@ -19,8 +19,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-include mkpm.mk
 
 .PHONY: hello
 hello:
