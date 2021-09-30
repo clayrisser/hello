@@ -22,6 +22,35 @@
 
 .PHONY: hello
 hello:
+ifeq ($(SHELL),cmd.exe)
+	@echo.
+	@echo 88        88              88  88
+	@echo 88        88              88  88
+	@echo 88        88              88  88
+	@echo 88aaaaaaaa88   ,adPPYba,  88  88   ,adPPYba,
+	@echo 88""""""""88  a8P_____88  88  88  a8"     "8a
+	@echo 88        88  8PP"""""""  88  88  8b       d8  aaa
+	@echo 88        88  "8b,   ,aa  88  88  "8a,   ,a8"  "88
+	@echo 88        88   `"Ybbd8"'  88  88   `"YbbdP"'   d8'
+	@echo                                               8"
+	@echo.
+	@echo.
+	@echo                                              88           88  88
+	@echo                                              88           88  88
+	@echo                                              88           88  88
+	@echo 8b      db      d8   ,adPPYba,   8b,dPPYba,  88   ,adPPYb,88  88
+	@echo `8b    d88b    d8'  a8"     "8a  88P'   "Y8  88  a8"    `Y88  88
+	@echo  `8b  d8'`8b  d8'   8b       d8  88          88  8b       88  ""
+	@echo   `8bd8'  `8bd8'    "8a,   ,a8"  88          88  "8a,   ,d88  aa
+	@echo     YP      YP       `"YbbdP"'   88          88   `"8bbdP"Y8  88
+	@echo.
+	@echo BitSpur Inc (c) Copyright 2021
+	@echo.
+	@echo this message is coming from the hello mkpm package
+	@echo you can find this package at the link below
+	@echo https://gitlab.com/bitspur/community/mkpm-hello
+	@echo.
+else
 	@echo
 	@echo '88        88              88  88'
 	@echo '88        88              88  88'
@@ -33,6 +62,7 @@ hello:
 	@echo '88        88   `"Ybbd8"'"'  88  88   \`"'"YbbdP"'"'   d8'"
 	@echo '                                              8"'
 	@echo
+	@echo
 	@echo '                                             88           88  88'
 	@echo '                                             88           88  88'
 	@echo '                                             88           88  88'
@@ -42,12 +72,13 @@ hello:
 	@echo '  `8bd8'"'  \`8bd8'    "'"8a,   ,a8"  88          88  "8a,   ,d88  aa'
 	@echo '    YP      YP       `"YbbdP"'"'   88          88   \`"'"8bbdP"Y8  88'
 	@echo
-	@echo 'BitSpur Inc (c) Copyright 2021'
+	@echo BitSpur Inc (c) Copyright 2021
 	@echo
 	@echo this message is coming from the hello mkpm package
 	@echo you can find this package at the link below
 	@echo https://gitlab.com/bitspur/community/mkpm-hello
 	@echo
+endif
 	@echo this package was published to the mkpm stable repo
 	@echo you can find the mkpm stable repo at the link below
 	@echo https://gitlab.com/bitspur/community/mkpm-stable

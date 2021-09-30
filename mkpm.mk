@@ -1,9 +1,9 @@
 # File: /mkpm.mk
-# Project: mkpm-hello
-# File Created: 27-09-2021 17:45:48
+# Project: mkpm
+# File Created: 26-09-2021 00:44:57
 # Author: Clay Risser
 # -----
-# Last Modified: 28-09-2021 03:28:03
+# Last Modified: 28-09-2021 03:22:53
 # Modified By: Clay Risser
 # -----
 # BitSpur Inc (c) Copyright 2021
@@ -20,13 +20,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-MKPM_NAME := hello
+MKPM_PKG_NAME := hello
 
-MKPM_DESCRIPTION := "mkpm hello world package"
+MKPM_PKG_VERSION := 0.0.2
 
-MKPM_VERSION := 0.0.2
+MKPM_PKG_DESCRIPTION := "mkpm hello world package"
 
-MKPM_FILES_REGEX :=
+MKPM_PKG_AUTHOR := Clay Risser <clayrisser@gmail.com>
+
+MKPM_PKG_SOURCE := https://gitlab.com/bitspur/community/mkpm-hello.git
+
+MKPM_PKG_FILES_REGEX :=
 
 MKPM_PACKAGES := \
 
@@ -45,9 +49,9 @@ endef
 ifeq ($(OS),Windows_NT)
 	NULL = nul
 	SHELL = cmd.exe
-	.SHELLFLAGS = /v /c
+	.SHELLFLAGS = /q /v /c
 define mkdir_p
-cmd.exe /v /c "set p=$1 & mkdir !p:/=\! 2>nul || echo >nul"
+cmd.exe /q /v /c "set p=$1 & mkdir !p:/=\! 2>nul || echo >nul"
 endef
 endif
 -include $(MKPM_PACKAGE_DIR)/.bootstrap.mk
