@@ -3,7 +3,7 @@
 # File Created: 27-09-2021 17:45:48
 # Author: Clay Risser
 # -----
-# Last Modified: 27-09-2021 23:59:08
+# Last Modified: 30-09-2021 04:47:04
 # Modified By: Clay Risser
 # -----
 # BitSpur Inc (c) Copyright 2021
@@ -72,7 +72,7 @@ else
 	@echo '  `8bd8'"'  \`8bd8'    "'"8a,   ,a8"  88          88  "8a,   ,d88  aa'
 	@echo '    YP      YP       `"YbbdP"'"'   88          88   \`"'"8bbdP"Y8  88'
 	@echo
-	@echo BitSpur Inc (c) Copyright 2021
+	@echo 'BitSpur Inc (c) Copyright 2021'
 	@echo
 	@echo this message is coming from the hello mkpm package
 	@echo you can find this package at the link below
