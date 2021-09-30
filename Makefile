@@ -3,7 +3,7 @@
 # File Created: 27-09-2021 17:45:48
 # Author: Clay Risser
 # -----
-# Last Modified: 28-09-2021 00:16:30
+# Last Modified: 30-09-2021 04:44:56
 # Modified By: Clay Risser
 # -----
 # BitSpur Inc (c) Copyright 2021
@@ -41,7 +41,7 @@ pack:
 			([ "$$PARENT_DIR" != "" ] && mkdir -p $(PACK_DIR)/$$PARENT_DIR || true) && \
 			cp $$f $(PACK_DIR)/$$f; \
 		done
-	@tar -cvzf $(MKPM_NAME).tar.gz -C $(PACK_DIR) .
+	@tar -cvzf $(MKPM_PKG_NAME).tar.gz -C $(PACK_DIR) .
 
 .PHONY: publish
 publish: pack
