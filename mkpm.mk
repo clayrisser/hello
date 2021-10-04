@@ -34,7 +34,7 @@ MKPM_PKG_FILES_REGEX :=
 
 MKPM_PACKAGES := \
 
-MKPM_SOURCES := \
+MKPM_REPOS := \
 
 ############# MKPM BOOTSTRAP SCRIPT BEGIN #############
 MKPM_BOOTSTRAP := https://bitspur.gitlab.io/community/mkpm/bootstrap.mk
