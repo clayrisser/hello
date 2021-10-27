@@ -3,8 +3,8 @@
 # File Created: 26-09-2021 00:44:57
 # Author: Clay Risser
 # -----
-# Last Modified: 07-10-2021 16:49:58
-# Modified By: Clay Risser
+# Last Modified: 27-10-2021 04:06:43
+# Modified By: Jam Risser
 # -----
 # BitSpur Inc (c) Copyright 2021
 #
@@ -22,7 +22,7 @@
 
 MKPM_PKG_NAME := hello
 
-MKPM_PKG_VERSION := 0.0.4
+MKPM_PKG_VERSION := 0.0.5
 
 MKPM_PKG_DESCRIPTION := "mkpm hello world package"
 
