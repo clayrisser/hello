@@ -22,7 +22,7 @@
 
 .PHONY: hello
 hello:
-ifeq ($(SHELL),cmd.exe)
+ifneq ($(patsubst %.exe,%,$(SHELL)),$(SHELL))
 	@echo.
 	@echo 88        88              88  88
 	@echo 88        88              88  88
