@@ -21,8 +21,9 @@
 # limitations under the License.
 
 include mkpm.mk
-ifneq (,$(MKPM))
 include main.mk
+
+ifneq (,$(MKPM_READY))
 
 GIT ?= git
 PACK_DIR := $(MKPM_TMP)/pack
@@ -45,10 +46,6 @@ pack:
 
 .PHONY: publish
 publish: pack
-
-.PHONY: sudo
-sudo:
-	@sudo true
 
 .PHONY: clean
 clean:

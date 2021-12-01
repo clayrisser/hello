@@ -40,16 +40,16 @@ MKPM_REPOS := \
 MKPM_BOOTSTRAP := https://bitspur.gitlab.io/community/mkpm/bootstrap.mk
 NULL := /dev/null
 TRUE := true
-ifeq ($(OS),Windows_NT)
+ifneq ($(patsubst %.exe,%,$(SHELL)),$(SHELL))
 	NULL = nul
 	TRUE = type nul
 endif
 -include .mkpm/.bootstrap.mk
 .mkpm/.bootstrap.mk:
-	@mkdir .mkpm 2>$(NULL) || $(TRUE)
-	@cd .mkpm && \
+	@mkdir $(@D) 2>$(NULL) || $(TRUE)
+	@cd $(@D) && \
 		$(shell curl --version >$(NULL) 2>$(NULL) && \
 			echo curl -L -o || \
 			echo wget --content-on-error -O) \
-		.bootstrap.mk $(MKPM_BOOTSTRAP) >$(NULL)
+		$(@F) $(MKPM_BOOTSTRAP) >$(NULL)
 ############## MKPM BOOTSTRAP SCRIPT END ##############
