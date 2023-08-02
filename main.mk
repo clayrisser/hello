@@ -3,7 +3,7 @@
 # File Created: 27-09-2021 17:45:48
 # Author: Clay Risser
 # -----
-# Last Modified: 23-06-2022 15:13:37
+# Last Modified: 02-08-2023 07:47:21
 # Modified By: Clay Risser
 # -----
 # Risser Labs LLC (c) Copyright 2021
@@ -43,9 +43,9 @@ hello:
 	@echo '  `8bd8'"'  \`8bd8'    "'"8a,   ,a8"  88          88  "8a,   ,d88  aa'
 	@echo '    YP      YP       `"YbbdP"'"'   88          88   \`"'"8bbdP"Y8  88'
 	@echo
-	@echo 'Risser Labs LLC (c) Copyright 2021-2022'
+	@echo 'BitSpur (c) Copyright 2021-2022'
 	@echo
-	@echo this package was published to the mkpm stable repo
-	@echo you can find the mkpm stable repo at the link below
-	@echo https://gitlab.com/bitspur/community/mkpm-stable
+	@echo this package was published to the mkpm packages repo
+	@echo you can find the mkpm packages repo at the link below
+	@echo https://gitlab.com/bitspur/community/mkpm-packages
 	@echo
