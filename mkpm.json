@@ -4,6 +4,7 @@
   "description": "mkpm hello world package",
   "author": "Clay Risser <clayrisser@gmail.com>",
   "repo": "git@gitlab.com:bitspur/mkpm/packages.git",
+  "source": "https://gitlab.com/bitspur/mkpm/hello.git",
   "packages": {
     "default": {}
   },
